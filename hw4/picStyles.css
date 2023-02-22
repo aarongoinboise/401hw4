@@ -38,11 +38,11 @@
     display: inline-block;
 }
 
-.formStyle {
+/* .formStyle {
     padding: 10px 10px;
     margin-top: 7px;
     margin-bottom: 8px;
-}
+} */
 
 .smallerPic {
     background-size: contain;

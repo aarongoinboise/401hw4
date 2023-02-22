@@ -32,20 +32,19 @@ h1 {
   max-height: 120px;
 }
 
-#menuBarFourCol {
+.menuBar {
   display: grid;
   row-gap: 0;
   padding: 0;
   overflow: auto;
+}
+
+#menuBarFourCol {
   grid-template-columns: auto auto auto auto;
   font-size: 20px;
 }
 
 #menuBarFiveCol {
-  display: grid;
-  row-gap: 0;
-  padding: 0;
-  overflow: auto;
   grid-template-columns: auto auto auto auto auto;
   font-size: 14px;
 }

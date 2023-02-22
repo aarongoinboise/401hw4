@@ -8,7 +8,7 @@ include("h1s.php");
 $_POST['selected'] = 'home';
 $_POST['menutype'] = 'nonMemberMenuBar';
 ?>
-<div id="menuBarFourCol">
+<div id="menuBarFourCol" class="menuBar">
   <?php
   include("menu.php");
   unset($_POST['selected']);

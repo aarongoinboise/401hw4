@@ -8,7 +8,7 @@ include("h1s.php");
 $_POST['selected'] = 'sessionHistory';
 $_POST['menutype'] = 'student';
 ?>
-<div id="menuBarFiveCol">
+<div id="menuBarFiveCol" class="menuBar">
   <?php
   include("menu.php");
   unset($_POST['selected']);
