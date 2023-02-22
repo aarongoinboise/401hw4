@@ -14,7 +14,7 @@ $_POST['menutype'] = 'student';
   unset($_POST['selected']);
   unset($_POST['menutype']);
   ?>
-  <div id="studentBackgroundPic" class="backgroundPicFormat formStyle formText">
+  <div id="studentBackgroundPic" class="backgroundPicFormat">
     <div id="mediumP">
       <p>
         Hi Example_Student!

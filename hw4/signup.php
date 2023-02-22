@@ -15,8 +15,8 @@ $_POST['menutype'] = 'nonMemberMenuBar';
   unset($_POST['menutype']);
   ?>
 
-  <div id="signUpBackgroundPic" class="backgroundPicFormat formStyle">
-    <div id="signUpText">
+  <div id="signUpBackgroundPic" class="backgroundPicFormat">
+    <div id="formText">
       <p>
         Please select the type of account you're signing up for:
         <select name="accountType" id="accountType">

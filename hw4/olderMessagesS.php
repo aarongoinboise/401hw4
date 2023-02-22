@@ -14,13 +14,15 @@ $_POST['menutype'] = 'student';
     unset($_POST['selected']);
     unset($_POST['menutype']);
     ?>
-    <div id="studentBackgroundPic" class="backgroundPicFormat formStyle formText">
-        <p>
-            No older messages exist!
-        </p>
-        <p>
-            To see newer messages click <a href=studentMessage.php>here</a>
-        </p>
+    <div id="studentBackgroundPic" class="backgroundPicFormat">
+        <div id="smallerP">
+            <p>
+                No older messages exist!
+            </p>
+            <p>
+                To see newer messages click <a href=studentMessage.php>here</a>
+            </p>
+        </div>
         <?php include("footer.php"); ?>
     </div>
     </body>

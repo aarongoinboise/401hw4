@@ -14,7 +14,8 @@ $_POST['menutype'] = 'tutor';
     unset($_POST['selected']);
     unset($_POST['menutype']);
     ?>
-    <div id="tutorBackgroundPic" class="backgroundPicFormat formStyle formText">
+    <div id="tutorBackgroundPic" class="backgroundPicFormat">
+        <div id="smallerP">
         <p>
             Today's Date: xx/xx/2023
         </p>

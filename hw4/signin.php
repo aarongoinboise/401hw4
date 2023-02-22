@@ -15,7 +15,7 @@ $_POST['menutype'] = 'nonMemberMenuBar';
   unset($_POST['menutype']);
   ?>
 
-  <div id="signInBackgroundPic" class="backgroundPicFormat formStyle smallerPic">
+  <div id="signInBackgroundPic" class="backgroundPicFormat">
     <p>
       <input type="text" id="UserName" name="UserName" placeholder="UserName">
       &nbsp;&nbsp;

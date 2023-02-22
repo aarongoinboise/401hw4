@@ -14,29 +14,31 @@ $_POST['menutype'] = 'student';
   unset($_POST['selected']);
   unset($_POST['menutype']);
   ?>
-  <div id="studentBackgroundPic" class="backgroundPicFormat formStyle formText">
-    <details>
-      <summary>Date and Session Description</summary>
+  <div id="studentBackgroundPic" class="backgroundPicFormat">
+    <div id="smallerP">
+      <details>
+        <summary>Date and Session Description</summary>
+        <p>
+          1/30/23: Worked on HW1 and learned...
+          <span id="extra" class="historyHoverText">about the categories of functions</span>
+        </p>
+        <hr>
+        <p>
+          2/4/23: I made methods for my Cache class...
+          <span id="extra" class="historyHoverText">which means I'm a life winner!</span>
+        </p>
+      </details>
       <p>
-        1/30/23: Worked on HW1 and learned...
-        <span id="extra" class="historyHoverText">about the categories of functions</span>
+        Click on the "►" to see your sessions.
       </p>
-      <hr>
       <p>
-        2/4/23: I made methods for my Cache class...
-        <span id="extra" class="historyHoverText">which means I'm a life winner!</span>
+        Hover over a session date to see more info.
       </p>
-    </details>
-    <p>
-      Click on the "►" to see your sessions.
-    </p>
-    <p>
-      Hover over a session date to see more info.
-    </p>
-    <p>
-      To see older sessions click <a href=olderSessionsS.php>here</a>
-    </p>
-  <?php include("footer.php"); ?> 
+      <p>
+        To see older sessions click <a href=olderSessionsS.php>here</a>
+      </p>
+    </div>
+    <?php include("footer.php"); ?>
   </div>
   </body>
 

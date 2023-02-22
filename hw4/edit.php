@@ -14,8 +14,8 @@ $_POST['menutype'] = 'tutor';
     unset($_POST['selected']);
     unset($_POST['menutype']);
     ?>
-    <div id="tutorBackgroundPic" class="backgroundPicFormat formStyle formText">
-        <div id="signUpText">
+    <div id="tutorBackgroundPic" class="backgroundPicFormat">
+        <div id="formText">
             <p>
                 Select the type of edit you would like to make:
                 <select>

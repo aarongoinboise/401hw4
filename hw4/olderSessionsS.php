@@ -14,13 +14,15 @@ $_POST['menutype'] = 'student';
   unset($_POST['selected']);
   unset($_POST['menutype']);
   ?>
-  <div id="tutorBackgroundPic"  class="backgroundPicFormat formStyle formText">
-    <p>
-      No older sessions exist!
-    </p>
-    <p>
-      To see newer sessions click <a href=sessionHistory.php>here</a>
-    </p>
+  <div id="studentBackgroundPic" class="backgroundPicFormat">
+    <div id="smallerP">
+      <p>
+        No older sessions exist!
+      </p>
+      <p>
+        To see newer sessions click <a href=sessionHistory.php>here</a>
+      </p>
+    </div>
     <?php include("footer.php"); ?>
   </div>
   </body>

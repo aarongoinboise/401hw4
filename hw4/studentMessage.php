@@ -14,7 +14,7 @@ $_POST['menutype'] = 'student';
   unset($_POST['selected']);
   unset($_POST['menutype']);
   ?>
-  <div id="studentBackgroundPic" class="backgroundPicFormat formStyle formText">
+  <div id="studentBackgroundPic" class="backgroundPicFormat">
     <div id="smallerP">
     <p>
       You have one new message!
@@ -36,7 +36,7 @@ $_POST['menutype'] = 'student';
       Hover over a message to see it in full.
     </p>
     <p>
-      To send a mesage to Aaron (your tutor), click click <a href=sendTutorMessage.php>here</a>
+      To send a mesage to Aaron (your tutor), click <a href=sendTutorMessage.php>here</a>
     </p>
     <p>
       To see older messages click <a href=olderMessagesS.php>here</a>

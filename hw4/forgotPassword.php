@@ -15,7 +15,7 @@ $_POST['menutype'] = 'nonMemberMenuBar';
   unset($_POST['menutype']);
   ?>
 
-  <div id="signInBackgroundPic" class="backgroundPicFormat formStyle smallerPic">
+  <div id="signInBackgroundPic" class="backgroundPicFormat">
     <select name="accountType" id="accountType">
       <option disabled="disabled" selected="selected">Account Type</option>
       <option value="student">Student</option>
@@ -27,11 +27,11 @@ $_POST['menutype'] = 'nonMemberMenuBar';
       <button type="button" onclick="alert('Check the email that you signed up with!')">Tell Me
         My Password!</button>
     </p>
-    <div>
-      </br><a href=signin.php>Sign In</a>
+    <p>
+      <a href=signin.php>Sign In</a>
       &nbsp;&nbsp;
-      <a href=resetPassword.php>Reset Password</a></br>
-    </div>
+      <a href=resetPassword.php>Reset Password</a>
+    </p>
     <?php include("footer.php"); ?>
   </div>
   </body>
