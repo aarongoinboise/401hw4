@@ -15,7 +15,8 @@ $_POST['menutype'] = 'tutor';
     unset($_POST['menutype']);
     ?>
     <div id="tutorBackgroundPic" class="backgroundPicFormat">
-        <div id="p">
+    <h2>Welcome Tutor 12345!</h2>
+        <div id="sTHomeText">
             <p>
                 In your last session on 2/4/22... You had 1 person attend your session.
             </p>
@@ -24,6 +25,9 @@ $_POST['menutype'] = 'tutor';
             </p>
             <p>
                 Next Tutor Session: 2/6/23 from 2PM-4PM at the Kount Learning Center
+            </p>
+            <p>
+                To logout and return to the login page, click <a href=signin.php>here</a>
             </p>
         </div>
         <?php include("footer.php"); ?>

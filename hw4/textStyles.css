@@ -1,28 +1,28 @@
 h2 {
-    font-size: 53px;
-  }
-  
-  #p {
-    font-size: 48px;
-  }
-  
-  #mediumP {
-    font-size: 38px;
-  }
-  
-  #smallerP {
-    font-size: 27px;
-  }
-  
-  #studentHText {
-    font-size: 38px;
-  }
+  font-size: 53px;
+}
 
-  #formText {
-    margin-left: 15px;
-    margin-bottom: 10px;
-    text-align: left;
-    font-size: 25px;
+#p {
+  font-size: 48px;
+}
+
+#mediumP {
+  font-size: 38px;
+}
+
+#smallerP {
+  font-size: 27px;
+}
+
+#sTHomeText {
+  font-size: 33px;
+}
+
+#formText {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 25px;
 }
 
 input[type=text] {
