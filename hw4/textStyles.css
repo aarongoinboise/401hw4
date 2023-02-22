@@ -1,0 +1,32 @@
+h2 {
+    font-size: 53px;
+  }
+  
+  #p {
+    font-size: 48px;
+  }
+  
+  #mediumP {
+    font-size: 38px;
+  }
+  
+  #smallerP {
+    font-size: 27px;
+  }
+  
+  #signUpText {
+    font-size: 26px;
+  }
+  
+  #studentHText {
+    font-size: 38px;
+  }
+
+  .formText {
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 3vw;
+}
